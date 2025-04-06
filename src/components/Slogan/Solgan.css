@@ -1,0 +1,18 @@
+.solgan {
+    width: 100vw; /* full viewport width */
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 90px 0 30px;
+    background: linear-gradient(rgb(226, 226, 226), rgba(229, 228, 233, 0.9));
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
