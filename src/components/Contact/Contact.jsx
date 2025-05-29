@@ -29,13 +29,20 @@ const Contact = () => {
   return (
     <div className="contact-section">
       <div className="contact-left">
-        <h1>Contact Us</h1>
-        <p>We’d love to hear from you. Whether you're curious about services, a demo, or even press—we’re ready to answer any and all questions.</p>
+        <h3>Contact Us</h3>
+        <br></br>
+        <p>We would love to hear from you. Whether you are an organization looking to enhance your workforce or an individual seeking to advance your career, we are here to help.</p>
         <div className="contact-info">
-          <p><strong>Email:</strong> hello@socialsyncflow.com</p>
-          <p><strong>Phone:</strong> +34 123 456 789</p>
-          <p><strong>Location:</strong> Marbella, Spain</p>
+          <p><strong>Email:</strong> admin@thethirdavenue.co.za</p>
+          <p><strong>Phone:</strong> +27(0) 63 834 6632</p>
         </div>
+      </div>
+
+      <div className="contact-left">
+        <h3>Our Offices</h3>
+        <br></br>
+          <p><strong>Gauteng (Centurion):</strong> Block 2, Manhattan Office Park, Highveld 0169</p>
+          <p><strong>Eastern Cape (East London): </strong> Office 1B, Esprit House, St Helena Drive, Triple Point, Beacon Bay</p>
       </div>
 
       <div className="contact-right">

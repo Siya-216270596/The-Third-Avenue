@@ -17,7 +17,7 @@
   .contact-left h1 {
     font-size: 2.8rem;
     margin-bottom: 20px;
-    color: #a57901;
+    color: #9CB39BCC;
   }
   
   .contact-info p {
@@ -47,7 +47,7 @@
   .contact-form .btn {
     padding: 12px;
     font-size: 1rem;
-    background: #a57901;
+    background: #9CB39BCC;
     color: white;
     border: none;
     border-radius: 8px;
@@ -56,6 +56,6 @@
   }
   
   .contact-form .btn:hover {
-    background: #8a6200;
+    background: #9CB39BCC;
   }
   

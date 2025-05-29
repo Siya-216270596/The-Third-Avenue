@@ -1,37 +1,43 @@
 import React from 'react'
 import './Vision.css'
-import about_img from '../../assets/about.png'
+import about_img from '../../assets/Image 10.jpg'
 
 const Vision = () => {
   return (
     <div className='vision'>
       <div className='vision-mid'>
-        <h1>Quick Links</h1>
+        <h1>Our Service</h1>
 
         <div>
-          <h2>Our Story & Vision</h2>
+          <h2>Recruitment Services</h2>
           <br />
           <p>
-            We’re driven by a passion for helping luxury brands thrive. By creating impactful
-            content and strategies that truly connect, we aim to help your business grow while
-            leaving a lasting impression on your audience.
+            Connecting businesses with
+            the right talent by sourcing and placing learners into training and job opportunities.
           </p>
         </div>
 
         <div>
-          <h2>Explore Our Expertise</h2>
+          <h2>Leadership & Management Development</h2>
           <br />
           <p>
-            With a wealth of experience in crafting luxury marketing campaigns and standout content,
-            we specialize in turning bold ideas into strategies that deliver real results.
+           Providing customized qualifications in leadership, management, and business strategy to elevate organizational performance.
           </p>
         </div>
 
         <div>
-          <h2>Get In Touch With Us</h2>
+          <h2>Job Readiness Programs</h2>
           <br />
           <p>
-            Let’s work together to bring your vision to life. Reach out today to get started!
+            Equipping learners with essential soft skills to ensure they are ready for professional success.
+          </p>
+        </div>
+
+        <div>
+          <h2>Entrepreneurial Development</h2>
+          <br />
+          <p>
+           Offering training and mentorship to help individuals start and sustain successful businesses.
           </p>
         </div>
       </div>

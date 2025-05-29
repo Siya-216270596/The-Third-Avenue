@@ -1,26 +1,43 @@
-import React from 'react'
-import './About.css'
-import about_img from '../../assets/about.png'
+import React from 'react';
+import { FiTarget, FiEye, FiUsers, FiAward, FiZap, FiArrowRight, FiHeart, FiUser, FiShield, FiStar, FiLock, FiTool, FiBook } from 'react-icons/fi';
+import './About.css';
 
 const About = () => {
   return (
-    <div className='about'>
-        <div className='about-left'>
-        <img src={about_img} alt="" className='about-img' />
+    <div className="about-page">
+      {/* Hero Section */}
+      <section className="hero-section">
+        <div className="hero-content">
+          <h1 className="hero-title">
+            <span>Who We Are</span>
+          </h1>
+          <p className="hero-description">
+            At The Third Avenue, we are passionate about delivering impactful skills development initiatives tailored to meet the needs of South Africa’s diverse workforce. Our approach combines strategic insight, practical training, and measurable outcomes to foster growth and social impact.
+          </p>
+          <div className="hero-stats">
+            <div className="stat-card">
+              <FiUsers className="stat-icon"/>
+              <div>
+                <h3>2500+</h3>
+                <p>Learners Empowered</p>
+              </div>
+            </div>
+            <div className="stat-card">
+              <FiAward className="stat-icon"/>
+              <div>
+                <h3>94%</h3>
+                <p>Success Rate</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='about-mid'>
-        <h1>About Us</h1>
-        <br />
-        <h2>Get to know the visionaries behind the brand</h2>
-        <br />
-        <p>SocialSync is a luxury social media marketing agency based in Marbella, working with clients worldwide. Founded by Jamie & Yeganeh.</p>
-        <button className='btn'>Learn more.</button>
+        <div className="hero-image-container">
+          <div className="team-photo"></div>
+          <div className="image-overlay"></div>
         </div>
-        <div className='about-right'>
-        <img src={about_img} alt="" className='about-img' />
-        </div>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
