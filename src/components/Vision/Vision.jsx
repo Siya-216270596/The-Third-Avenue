@@ -3,47 +3,44 @@ import './Vision.css'
 import about_img from '../../assets/Image 10.jpg'
 
 const Vision = () => {
+  const services = [
+    {
+      title: "Recruitment Services",
+      description: "Connecting businesses with the right talent by sourcing and placing learners into training and job opportunities."
+    },
+    {
+      title: "Leadership & Management Development",
+      description: "Providing customized qualifications in leadership, management, and business strategy to elevate organizational performance."
+    },
+    {
+      title: "Job Readiness Programs",
+      description: "Equipping learners with essential soft skills to ensure they are ready for professional success."
+    },
+    {
+      title: "Entrepreneurial Development",
+      description: "Offering training and mentorship to help individuals start and sustain successful businesses."
+    }
+  ];
+
   return (
-    <div className='vision'>
-      <div className='vision-mid'>
-        <h1>Our Service</h1>
-
-        <div>
-          <h2>Recruitment Services</h2>
-          <br />
-          <p>
-            Connecting businesses with
-            the right talent by sourcing and placing learners into training and job opportunities.
-          </p>
-        </div>
-
-        <div>
-          <h2>Leadership & Management Development</h2>
-          <br />
-          <p>
-           Providing customized qualifications in leadership, management, and business strategy to elevate organizational performance.
-          </p>
-        </div>
-
-        <div>
-          <h2>Job Readiness Programs</h2>
-          <br />
-          <p>
-            Equipping learners with essential soft skills to ensure they are ready for professional success.
-          </p>
-        </div>
-
-        <div>
-          <h2>Entrepreneurial Development</h2>
-          <br />
-          <p>
-           Offering training and mentorship to help individuals start and sustain successful businesses.
-          </p>
-        </div>
+    <div className='vision-container'>
+      <div className='vision-header'>
+        <h2>Our Services</h2>
       </div>
-
-      <div className='vision-right'>
-        <img src={about_img} alt="Vision" />
+      
+      <div className='vision-content'>
+        <div className='vision-items'>
+          {services.map((service, index) => (
+            <div className='service-card' key={index}>
+              <h3>{service.title}</h3>
+              <p>{service.description}</p>
+            </div>
+          ))}
+        </div>
+        
+        <div className='vision-image'>
+          <img src={about_img} alt="Our Services" />
+        </div>
       </div>
     </div>
   )

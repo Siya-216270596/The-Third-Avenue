@@ -5,7 +5,11 @@ import './About.css';
 const About = () => {
   return (
     <div className="about-page">
-      {/* Hero Section */}
+        <div className="contact-header">
+        <h2 className="section-title">ABOUT US</h2>
+          <p>We would love to hear from you.</p>
+        </div>
+      <section className="hero-section"></section>
       <section className="hero-section">
         <div className="hero-content">
           <h1 className="hero-title">

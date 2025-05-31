@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  background: rgba(156, 179, 155, 0.8); /* dark semi-transparent background */
+  background: none;
   color: #ffffff;
   padding: 10px 0;
   position: fixed;
@@ -13,57 +13,94 @@ nav {
   transition: background 0.3s ease;
 }
 
-.menu-icon {
-  display: none;
+/* Add flex container for desktop navigation */
+nav .desktop-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .desktop-nav li {
+  margin: 0 15px;
+}
+
+/* Nav item link styles */
+nav ul li a {
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+/* Active link button style */
+nav ul li a.active-link {
+  background: #9CB39B;
+  color: #fff;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background: rgba(156, 179, 155, 0.5);
 }
 
 .logo {
   width: 180px;
 }
 
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 5px 20px;
-  font-size: 16px;
+.menu-icon {
+  display: none;
+  width: 30px;
+  cursor: pointer;
 }
 
-
-/*-----media query-------*/
-
-@media(max-width: 1000px){
-    .logo{
-        width: 140px;
-    }
-    nav ul li{
-        margin: 10px 15px;
-    }
+/* Mobile menu styles */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #726c6c;
+  z-index: 999;
+  width: 200px;
+  padding-top: 70px;
+  transition: right 0.5s;
 }
-@media(max-width: 840px){
-    nav{
-        padding: 15px 0;
-    }
-    nav ul{
-        position: fixed;
-        top: 0;
-        right: 0px;
-        bottom: 0;
-        background-color: #726c6c;
-        z-index: -1;
-        width: 200px;
-        padding-top: 70px;
-        transition: 0.5s;
-    }
-    nav ul li{
-        display: block;
-        margin:25px 40px ;
-    }
-    .menu-icon{
-        display: block;
-        width: 30px;
-        cursor: pointer;
-    }
-    .hide-mobile-menu{
-        right: -200px;
-    }
+
+.mobile-nav li {
+  display: block;
+  margin: 25px 40px;
+}
+
+.hide-mobile-menu {
+  right: -200px;
+}
+
+/* Media queries */
+@media(max-width: 1000px) {
+  .logo {
+    width: 140px;
+  }
+  nav .desktop-nav li {
+    margin: 0 10px;
+  }
+}
+
+@media(max-width: 840px) {
+  nav {
+    padding: 15px 0;
+  }
+  
+  .desktop-nav {
+    display: none !important;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .mobile-nav {
+    display: block;
+  }
 }

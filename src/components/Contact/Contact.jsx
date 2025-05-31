@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FiMail, FiPhone, FiMapPin, FiSend } from 'react-icons/fi';
 import './Contact.css';
 
 const Contact = () => {
-    const [result, setResult] = React.useState("");
+      const [result, setResult] = React.useState("");
     const onSubmit = async (event) => {
         event.preventDefault();
         setResult("Sending....");
@@ -25,36 +26,109 @@ const Contact = () => {
           setResult(data.message);
         }
       };
-
   return (
-    <div className="contact-section">
-      <div className="contact-left">
-        <h3>Contact Us</h3>
-        <br></br>
-        <p>We would love to hear from you. Whether you are an organization looking to enhance your workforce or an individual seeking to advance your career, we are here to help.</p>
-        <div className="contact-info">
-          <p><strong>Email:</strong> admin@thethirdavenue.co.za</p>
-          <p><strong>Phone:</strong> +27(0) 63 834 6632</p>
+    <section className="contact-section">
+      <div className="contact-container">
+        <div className="contact-header">
+          <h2>GET IN TOUCH</h2>
+          <p>We would love to hear from you.
+            Whether you are an organization looking to enhance your workforce or
+            an individual seeking to advance your career, we are here to help.</p>
+        </div>
+        <div className="contact-content">
+          <div className="contact-left">
+            <h1>Contact Us</h1>
+            
+            <div className="contact-info">
+              <div className="info-item">
+                <div className="info-icon">
+                  <FiPhone />
+                </div>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+27 11 123 4567</p>
+                </div>
+              </div>
+              
+              <div className="info-item">
+                <div className="info-icon">
+                  <FiMail />
+                </div>
+                <div>
+                  <h3>Email</h3>
+                  <p>info@thirdavenue.org</p>
+                </div>
+              </div>
+              
+              <div className="info-item">
+                <div className="info-icon">
+                  <FiMapPin />
+                </div>
+                <div>
+                  <h3>Location</h3>
+                  <p>123 Education Street, Johannesburg, South Africa</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="contact-hours">
+              <h3>Operating Hours</h3>
+              <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+              <p>Saturday: 9:00 AM - 1:00 PM</p>
+              <p>Sunday: Closed</p>
+            </div>
+          </div>
+          
+          <div className="contact-right">
+            <div className="contact-form-container">
+              <h3>Send us a message</h3>
+              <form className="contact-form" onSubmit={onSubmit}>
+                <div className="form-group">
+                  <input 
+                    type="text" 
+                    placeholder="Your Name" 
+                    name="name"
+                    required 
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <input 
+                    type="email" 
+                    placeholder="Your Email" 
+                    name="email"
+                    required 
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <input 
+                    type="text" 
+                    placeholder="Your Phone" 
+                    name="Phone Number"
+                  />
+                </div>
+                
+                <div className="form-group">
+                  <textarea 
+                    placeholder="Your Message" 
+                    name="message"
+                    rows="5" 
+                    required 
+                  ></textarea>
+                </div>
+                
+                <button type="submit" className="btn">
+                  <span>Send Message</span>
+                  <FiSend className="send-icon" />
+                </button>
+              </form>
+              <span>{result}</span>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div className="contact-left">
-        <h3>Our Offices</h3>
-        <br></br>
-          <p><strong>Gauteng (Centurion):</strong> Block 2, Manhattan Office Park, Highveld 0169</p>
-          <p><strong>Eastern Cape (East London): </strong> Office 1B, Esprit House, St Helena Drive, Triple Point, Beacon Bay</p>
-      </div>
-
-      <div className="contact-right">
-      <form className="contact-form" onSubmit={onSubmit}>
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit" className="btn">Send Message</button>
-        </form>
-        <span>{result}</span>
-      </div>
-    </div>
+    </section>
   );
 };
 

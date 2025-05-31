@@ -1,5 +1,20 @@
 import React from 'react';
-import { FiTarget, FiEye, FiUsers, FiAward, FiZap, FiArrowRight, FiHeart, FiUser, FiShield, FiStar, FiLock, FiTool, FiBook } from 'react-icons/fi';
+import {
+  FiHeart,
+  FiUsers,
+  FiSmile,
+  FiShield,
+  FiCheckCircle,
+  FiAward,
+  FiCpu,
+  FiBookOpen,
+  FiLink,
+  FiClipboard,
+  FiTarget,
+  FiEye,
+  FiBook,
+  FiZap
+} from 'react-icons/fi';
 import './VisionAndMission.css';
 
 const VisionAndMission = () => {
@@ -39,42 +54,75 @@ const VisionAndMission = () => {
         <div className="values-grid">
           <div className="value-card">
             <div className="value-icon-container">
-              <FiZap className="value-icon"/>
+              <FiHeart className="value-icon"/>
             </div>
-            <h3>Empowerment</h3>
-            <p>Equipping learners with practical skills for sustainable employment</p>
+            <h3>Compassion</h3>
+            <p>We uplift others with understanding and empathy.</p>
           </div>
           
           <div className="value-card">
             <div className="value-icon-container">
-              <FiUser className="value-icon"/>
+              <FiUsers className="value-icon"/>
             </div>
-            <h3>Inclusivity</h3>
-            <p>Creating opportunities for all, regardless of background</p>
+            <h3>Respect</h3>
+            <p>We honor the dignity and diversity of every individual.</p>
           </div>
           
           <div className="value-card">
             <div className="value-icon-container">
-              <FiStar className="value-icon"/>
+              <FiSmile className="value-icon"/>
             </div>
-            <h3>Excellence</h3>
-            <p>Striving for the highest quality in all our programs</p>
-          </div>
-          
+            <h3>Care</h3>
+            <p>We are attentive and responsive to the needs of those we serve.</p>
+          </div>          
           <div className="value-card">
             <div className="value-icon-container">
               <FiShield className="value-icon"/>
             </div>
-            <h3>Accountability</h3>
-            <p>Taking responsibility for our actions and outcomes</p>
+            <h3>Integrity</h3>
+            <p>- We act with honesty, consistency, and strong moral principles.</p>
           </div>
-          
           <div className="value-card">
             <div className="value-icon-container">
-              <FiTool className="value-icon"/>
+              <FiCheckCircle className="value-icon"/>
             </div>
-            <h3>Innovation</h3>
-            <p>Developing creative solutions to education challenges</p>
+            <h3>Quality</h3>
+            <p>We commit to delivering outstanding, reliable services.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon-container">
+              <FiAward className="value-icon"/>
+            </div>
+            <h3>Excellence</h3>
+            <p>We strive for distinction in everything we do.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon-container">
+              <FiCpu className="value-icon"/>
+            </div>
+            <h3>Competence</h3>
+            <p>We uphold high standards through expertise and continuous learning.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon-container">
+              <FiBookOpen className="value-icon"/>
+            </div>
+            <h3>Knowledge</h3>
+            <p>We value learning as a lifelong journey that empowers change.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon-container">
+              <FiLink className="value-icon"/>
+            </div>
+            <h3>Partnership</h3>
+            <p>We believe in the power of collaboration and shared success.</p>
+          </div>
+          <div className="value-card">
+            <div className="value-icon-container">
+              <FiClipboard className="value-icon"/>
+            </div>
+            <h3>Accountability & Ethics</h3>
+            <p>We take responsibility for our actions and uphold ethical conduct at all times.</p>
           </div>
         </div>
       </section>
