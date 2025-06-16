@@ -1,7 +1,7 @@
 nav {
   width: 100%;
-  background: none;
-  color: #ffffff;
+  background: rgba(0, 125, 135, 0.25); /* base color with transparency */
+  color: #f5f0f0;
   padding: 10px 0;
   position: fixed;
   top: 0;
@@ -35,17 +35,18 @@ nav ul li a {
 
 /* Active link button style */
 nav ul li a.active-link {
-  background: #9CB39B;
+  background: #007d87;
   color: #fff;
 }
 
 /* Hover effect */
 nav ul li a:hover {
-  background: rgba(156, 179, 155, 0.5);
+  background: rgba(3, 119, 128, 0.5)
+;
 }
 
 .logo {
-  width: 180px;
+  width: 200px;
 }
 
 .menu-icon {
@@ -61,7 +62,7 @@ nav ul li a:hover {
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #726c6c;
+  background: rgba(0, 125, 135, 0.25); /* base color with transparency */
   z-index: 999;
   width: 200px;
   padding-top: 70px;

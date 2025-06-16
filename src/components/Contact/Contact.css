@@ -1,6 +1,14 @@
+:root {
+  --primary: #009cb0cc;
+  --secondary: #9CB39BCC;
+  --accent: #f59e0b;
+  --light: #f8fafc;;
+  --darkheader: #007d87;
+  --text: #007d87;
+}
 .contact-section {
-  background: #f7f7f7;
-  color: #000F38;
+  background:  url('../../assets/contact.jpg');
+  color: #007d87;
   padding: 5rem 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -18,14 +26,14 @@
 .contact-header h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #64748b;
+  color: var(--light);
 }
 
 .contact-header p {
   font-size: 1.1rem;
   max-width: 700px;
   margin: 0 auto;
-  color: #555;
+  color: var(--light);
 }
 
 .contact-content {
@@ -35,6 +43,7 @@
   justify-content: space-between;
 }
 
+
 .contact-left {
   flex: 1;
   min-width: 300px;
@@ -43,7 +52,7 @@
 .contact-left h1 {
   font-size: 2.8rem;
   margin-bottom: 30px;
-  color: #64748b;
+  color: var(--light);
 }
 
 .contact-info {
@@ -68,19 +77,19 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  color: #64748b;
+  color: #007d87;
 }
 
 .info-item h3 {
   font-size: 1.3rem;
   margin-bottom: 5px;
-  color: #64748b;
+  color: var(--light);
 }
 
 .info-item p {
   margin: 0;
   font-size: 1rem;
-  color: #555;
+  color: var(--light);
 }
 
 .contact-hours {
@@ -93,13 +102,13 @@
 .contact-hours h3 {
   font-size: 1.3rem;
   margin-bottom: 15px;
-  color: #64748b;
+  color: #007d87;
 }
 
 .contact-hours p {
   margin: 8px 0;
   font-size: 1rem;
-  color: #64748b;
+  color: #007d87;
 }
 
 .contact-right {
@@ -118,7 +127,7 @@
 .contact-form-container h3 {
   font-size: 1.8rem;
   margin-bottom: 25px;
-  color: #64748b;
+  color: #007d87;
 }
 
 .contact-form {
@@ -142,7 +151,7 @@
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #9CB39BCC;
+  border-color: #2596be;
   box-shadow: 0 0 0 3px rgba(165, 121, 1, 0.1);
   outline: none;
 }
@@ -159,7 +168,7 @@
   gap: 10px;
   padding: 15px;
   font-size: 1.1rem;
-  background: #9CB39BCC;
+  background: #007d87;
   color: white;
   border: none;
   border-radius: 8px;

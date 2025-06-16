@@ -11,42 +11,42 @@ const serviceData = [
   {
     image: program_3,
     title: 'Learnerships',
-    content: `🌱 Structured programs combining classroom learning and workplace experience. Engaged learners in class/workplace.`,
+    content: `Structured programs combining classroom learning and workplace experience. Engaged learners in workplace.`,
   },
   {
     image: program_2,
     title: 'Skills Programmes',
-    content: `🔧 Practical, job-specific skills through workshops, labs, and field work.`,
+    content: `Practical, job-specific skills through workshops, labs, and field work.`,
   },
   {
     image: Stem,
     title: 'STEM Training',
-    content: `⚙️ Science, tech, engineering & math training with robotics and coding projects.`,
+    content: `Science, tech, engineering & math training with robotics and coding projects.`,
   },
   {
     image: Image9,
     title: 'Apprenticeships',
-    content: `🛠️ Learn under expert mentors in real-world technical environments.`,
+    content: `Learn under expert mentors in real-world technical environments.`,
   },
   {
     image: program_2,
     title: 'Bursaries',
-    content: `🎓 Financial aid for talented learners preparing for university education.`,
+    content: `Financial aid for talented learners preparing for university education.`,
   },
   {
     image: program_3,
     title: 'SMME Support',
-    content: `💡 Business support for entrepreneurs including incubation and mentoring.`,
+    content: `Business support for entrepreneurs including incubation and mentoring.`,
   },
   {
     image: program_1,
     title: 'Career Guidance',
-    content: `🧭 Professional career counseling and pathway development services.`,
+    content: `Professional career counseling and pathway development services.`,
   },
   {
     image: program_2,
     title: 'Internships',
-    content: `📚 Practical work experience opportunities for recent graduates.`,
+    content: `Practical work experience opportunities for recent graduates.`,
   },
 ];
 

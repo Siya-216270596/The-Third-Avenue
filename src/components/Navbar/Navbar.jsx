@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/TTA-logo.png';
 import menu_icon from '../../assets/menu-icon.png';
 import { Link } from 'react-scroll';
 
@@ -19,7 +19,7 @@ const Navbar = () => {
   const navItems = [
     { to: 'hero', text: 'Home' },
     { to: 'about-page', text: 'About Us' },
-    { to: 'VisionAndMission-page', text: 'Vision And Mission' },
+    { to: 'VisionAndMission-page', text: 'Mission And Vision' },
     { to: 'vision-container', text: 'Services' },
     { to: 'services-section', text: 'Explore Our Programmes' },
     { to: 'contact-section', text: 'Get in Touch' }

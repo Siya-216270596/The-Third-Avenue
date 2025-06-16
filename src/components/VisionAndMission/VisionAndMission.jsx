@@ -16,6 +16,15 @@ import {
   FiZap
 } from 'react-icons/fi';
 import './VisionAndMission.css';
+import about_img from '../../assets/founder.jpg'
+import book_icon from '../../assets/book.png'
+import light_icon from '../../assets/light.png'
+import learning_icon from '../../assets/learning.png'
+import money_icon from '../../assets/money.png'
+import intership_icon from '../../assets/intership.png'
+import guide_icon from '../../assets/guide.png'
+import user_icon from '../../assets/user.png'
+
 
 const VisionAndMission = () => {
   return (
@@ -45,85 +54,83 @@ const VisionAndMission = () => {
       </section>
 
       {/* Values Section */}
-      <section className="values-section">
-        <div className="section-header">
+      <section className="commitment-section">
+        <div className="commitment-content">
           <h2>Our Core Values</h2>
           <p>The principles that guide our work and define our culture</p>
         </div>
         
         <div className="values-grid">
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiHeart className="value-icon"/>
-            </div>
-            <h3>Compassion</h3>
-            <p>We uplift others with understanding and empathy.</p>
+            <div className="impact-stat">
+            <img src={guide_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3>Compassion</h3>
+                <p>Showing genuine empathy and concern for others’ well-being and needs.</p>
+              </div>
           </div>
-          
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiUsers className="value-icon"/>
+            <div className="impact-stat">
+              <img src={user_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3>Respect</h3>
+                <p>Valuing others' perspectives, rights, and dignity in every interaction.</p>
+              </div>
             </div>
-            <h3>Respect</h3>
-            <p>We honor the dignity and diversity of every individual.</p>
+            <div className="impact-stat">
+              <img src={light_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3>Care</h3>
+                <p>Acting with thoughtfulness, kindness, and attention to individual needs.</p>
+              </div>
           </div>
-          
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiSmile className="value-icon"/>
-            </div>
-            <h3>Care</h3>
-            <p>We are attentive and responsive to the needs of those we serve.</p>
-          </div>          
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiShield className="value-icon"/>
-            </div>
-            <h3>Integrity</h3>
-            <p>- We act with honesty, consistency, and strong moral principles.</p>
+            <div className="impact-stat">
+              <img src={light_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3> Integrity</h3>
+                <p>Doing the right thing, even when no one is watching.</p>
+              </div>
           </div>
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiCheckCircle className="value-icon"/>
-            </div>
-            <h3>Quality</h3>
-            <p>We commit to delivering outstanding, reliable services.</p>
+            <div className="impact-stat">
+              <img src={intership_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3>Quality</h3>
+                <p>Delivering consistently high standards in everything we create or do.</p>
+              </div>
           </div>
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiAward className="value-icon"/>
-            </div>
-            <h3>Excellence</h3>
-            <p>We strive for distinction in everything we do.</p>
+            <div className="impact-stat">
+              <img src={learning_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3>Excellence</h3>
+                <p>Striving to exceed expectations through continuous improvement and dedication.</p>
+              </div>
           </div>
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiCpu className="value-icon"/>
-            </div>
-            <h3>Competence</h3>
-            <p>We uphold high standards through expertise and continuous learning.</p>
+            <div className="impact-stat">
+             <img src={light_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3>Competence</h3>
+                <p>Demonstrating skill, efficiency, and professionalism in every task undertaken.</p>
+              </div>
           </div>
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiBookOpen className="value-icon"/>
+          <div className="impact-stat">
+            <img src={book_icon} alt="Knowledge Icon" className="img-icon" />
+            <div>
+              <h3>Knowledge</h3>
+              <p>Applying expertise and continuous learning to inform decisions and actions.</p>
             </div>
-            <h3>Knowledge</h3>
-            <p>We value learning as a lifelong journey that empowers change.</p>
           </div>
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiLink className="value-icon"/>
+            <div className="impact-stat">
+              <img src={money_icon} alt="Knowledge Icon" className="img-icon" />
+              <div>
+                <h3>Partnership</h3>
+                <p>Collaborating openly and respectfully to achieve shared goals and success.</p>
+              </div>
+          </div>
+            <div className="impact-stat">
+              <img src={light_icon} alt="Knowledge Icon" className="img-icon" />
+            <div>
+              <h3>Accountability and Ethics</h3>
+                <p>Taking responsibility while upholding strong moral and ethical principles.</p>
+              </div>
             </div>
-            <h3>Partnership</h3>
-            <p>We believe in the power of collaboration and shared success.</p>
-          </div>
-          <div className="value-card">
-            <div className="value-icon-container">
-              <FiClipboard className="value-icon"/>
-            </div>
-            <h3>Accountability & Ethics</h3>
-            <p>We take responsibility for our actions and uphold ethical conduct at all times.</p>
-          </div>
         </div>
       </section>
 
@@ -172,20 +179,20 @@ const VisionAndMission = () => {
       {/* Founder Section */}
       <section className="founder-section">
         <div className="founder-content">
-          <div className="section-header">
+          <div className="section-header-founder">
             <h2>Meet Our Founder</h2>
-            <p>The visionary behind The Third Avenue</p>
+            <p>The Third Avenue was born from more than just an idea — it was sparked by a powerful conviction: that meaningful transformation begins with access, compassion, and vision.</p>
           </div>
           
           <blockquote className="founder-quote">
-            "We are the difference that shapes future leaders."
+            The Third Avenue is not just a platform — it’s a promise. A promise that no dream is too small, and no voice is too quiet to spark change
           </blockquote>
           
           <div className="founder-details">
             <div className="founder-info">
               <h3 className="founder-name">Sandisiwe Mabongo</h3>
               <p className="founder-credentials">
-                NQF Level 5 Facilitator | Skills Development Expert
+              15+ Years Experience | NQF Level 5 Facilitator | Skills Development Expert
               </p>
               <p className="founder-story">
                 Founded in 2016, The Third Avenue was created out of a deep passion for transforming lives through education. Our mission is to close the divide between education and employment by equipping individuals with the practical skills and qualifications needed to thrive in the workforce.
@@ -193,9 +200,10 @@ const VisionAndMission = () => {
             </div>
             
             <div className="founder-image-container">
-              <div className="founder-photo"></div>
-              <div className="founder-badge">
-                <span>15+ Years Experience</span>
+              <div className="founder-photo">
+                <div className='founder-image'>
+                  <img src={about_img} alt="founder" />
+                </div>
               </div>
             </div>
           </div>

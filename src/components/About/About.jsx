@@ -1,13 +1,15 @@
 import React from 'react';
-import { FiTarget, FiEye, FiUsers, FiAward, FiZap, FiArrowRight, FiHeart, FiUser, FiShield, FiStar, FiLock, FiTool, FiBook } from 'react-icons/fi';
-import './About.css';
+import {
+  FiUsers,
+  FiAward} from 'react-icons/fi';import './About.css';
+import aboutVideo from '../../assets/video_About.mp4'; 
 
 const About = () => {
   return (
     <div className="about-page">
-        <div className="contact-header">
+        <div className="about-header">
         <h2 className="section-title">ABOUT US</h2>
-          <p>We would love to hear from you.</p>
+          <p>The Third Avenue drives national transformation by upskilling youth from under-resourced communities through accredited training, bridging the gap between education and employment</p>
         </div>
       <section className="hero-section"></section>
       <section className="hero-section">
@@ -36,7 +38,9 @@ const About = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <div className="team-photo"></div>
+          <video autoPlay loop muted playsInline className="hero-video">
+            <source src={aboutVideo} type="video/mp4" />
+          </video>
           <div className="image-overlay"></div>
         </div>
       </section>

@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100vh;
     background:  
-    url('../../assets/Image 11.jpg');
+    url('../../assets/TTA_Home1.jpg');
     background-size: cover ;
     background-position: center;
     color: #ffffff;
@@ -15,7 +15,7 @@
 .hero-text {
   text-align: center;
   max-width: 800px;
-  background-color: rgba(176, 194, 175, 0.3); /* semi-transparent dark background */
+  background-color: rgba(176, 194, 175, 0.5); /* semi-transparent dark background */
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -36,17 +36,18 @@
   line-height: 1.4;
 }
 /* Button Styling */
-.btn-hero {
+.home-badge {
   margin: 40px auto 0 auto;
-  padding: 14px 28px;
+  padding: 14px 0;
+  width: 160px; /* set your desired length */
+  text-align: center;
   font-size: 15px;
-  background-color: #ffffff;
-  color: #090808;
-  border: none;
-  border-radius: 4px;
-  transition: all 0.3s ease;
   display: block;
+
+  background: #007d87;
+  border-radius: 2rem;
 }
+
 
 .hero-text h2{
     position: absolute;

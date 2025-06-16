@@ -1,6 +1,6 @@
 .vision-container {
   width: 100%;
-  background-color: #9CB39BCC;
+  background-color: #007d87;
   color: white;
   font-family: 'Segoe UI', sans-serif;
   padding: 60px 20px;
@@ -21,19 +21,9 @@
   display: inline-block;
 }
 
-.vision-header h2::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80px;
-  height: 3px;
-  background-color: white;
-}
-
 .vision-content {
   display: flex;
+  align-items: stretch;
   max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
@@ -42,7 +32,7 @@
 .vision-items {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr; /* One column to keep layout tidy */
   gap: 30px;
 }
 
@@ -75,13 +65,12 @@
 .vision-image {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
 
 .vision-image img {
   width: 100%;
-  height: auto;
-  max-height: 500px;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -92,14 +81,19 @@
   .vision-content {
     flex-direction: column;
   }
-  
+
   .vision-image {
     order: -1;
     margin-bottom: 30px;
   }
-  
+
+  .vision-image img {
+    height: auto;
+    max-height: 400px;
+  }
+
   .vision-items {
-    width: 100%;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -107,7 +101,7 @@
   .vision-header h2 {
     font-size: 26px;
   }
-  
+
   .service-card {
     padding: 20px;
   }
