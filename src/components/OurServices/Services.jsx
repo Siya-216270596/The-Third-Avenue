@@ -1,20 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import './Services.css';
-import program_1 from '../../assets/program-1.png';
-import Image9 from '../../assets/Image9.jpg';
-import program_2 from '../../assets/program-2.png';
-import program_3 from '../../assets/program-3.png';
+import burarsy from '../../assets/burarsy.jpg';
+import apprrentship from '../../assets/apprrentship.jpg';
+import skills_program from '../../assets/skills_program.jpg';
+import learnship from '../../assets/learnship.jpg';
 import Stem from '../../assets/Stem.jpg'
+import Smme_support from '../../assets/Smme_support.jpg';
+import career from '../../assets/career.png';
+import internship from '../../assets/internship.jpg'
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const serviceData = [
   {
-    image: program_3,
+    image: learnship,
     title: 'Learnerships',
     content: `Structured programs combining classroom learning and workplace experience. Engaged learners in workplace.`,
   },
   {
-    image: program_2,
+    image: skills_program,
     title: 'Skills Programmes',
     content: `Practical, job-specific skills through workshops, labs, and field work.`,
   },
@@ -24,27 +27,27 @@ const serviceData = [
     content: `Science, tech, engineering & math training with robotics and coding projects.`,
   },
   {
-    image: Image9,
+    image: apprrentship,
     title: 'Apprenticeships',
     content: `Learn under expert mentors in real-world technical environments.`,
   },
   {
-    image: program_2,
+    image: burarsy,
     title: 'Bursaries',
     content: `Financial aid for talented learners preparing for university education.`,
   },
   {
-    image: program_3,
+    image: Smme_support,
     title: 'SMME Support',
     content: `Business support for entrepreneurs including incubation and mentoring.`,
   },
   {
-    image: program_1,
+    image: career,
     title: 'Career Guidance',
     content: `Professional career counseling and pathway development services.`,
   },
   {
-    image: program_2,
+    image: internship,
     title: 'Internships',
     content: `Practical work experience opportunities for recent graduates.`,
   },

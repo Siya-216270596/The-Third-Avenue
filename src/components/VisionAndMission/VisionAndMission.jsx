@@ -146,7 +146,9 @@ const VisionAndMission = () => {
             <div className="timeline-year">2016</div>
             <div className="timeline-content">
               <h3>Foundation</h3>
-              <p>The Third Avenue was founded by Sandisiwe Mabongo</p>
+              <p>The Third Avenue was established by visionary leader  <b>Sandisiwe Mabongo </b>with a clear mission:
+                to bridge the gap between education and employment in South Africa.
+                Inspired by a passion for youth development and transformation, the organization set out to deliver high-impact skills training and career-readiness programmes tailored to underserved communities. </p>
             </div>
           </div>
           
@@ -154,7 +156,7 @@ const VisionAndMission = () => {
             <div className="timeline-year">2018</div>
             <div className="timeline-content">
               <h3>National Expansion</h3>
-              <p>Expanded operations to three provinces</p>
+              <p>By 2018, The Third Avenue had successfully expanded its operations across  <b>three provinces</b>, demonstrating the growing demand for quality, accessible skills development. This growth marked a significant milestone in extending the organization’s impact and reaching a wider network of learners, schools, and community-based partners across the country.</p>
             </div>
           </div>
           
@@ -162,15 +164,15 @@ const VisionAndMission = () => {
             <div className="timeline-year">2020</div>
             <div className="timeline-content">
               <h3>Digital Transformation</h3>
-              <p>Launched online learning platform</p>
+              <p>In response to the challenges posed by the COVID-19 pandemic and a rapidly evolving digital landscape, The Third Avenue collaborated with strategic partners to launch a suite of  <b>online e-learning platforms and virtual training programmes</b>. This bold pivot ensured learning continuity, increased accessibility, and positioned the organization as a forward-thinking player in the digital education space.</p>
             </div>
           </div>
           
           <div className="timeline-item">
             <div className="timeline-year">2023</div>
             <div className="timeline-content">
-              <h3>Education Innovator Award</h3>
-              <p>Recognized for outstanding contribution to skills development</p>
+              <h3>Education Power of Woman Award</h3>
+              <p>In recognition of its exceptional impact in the skills development sector, The Third Avenue was honored with the <b>Education Power of Woman Award</b>. This accolade celebrates founder Sandisiwe Mabongo’s leadership and the organization’s unwavering commitment to empowering women and youth through education, innovation, and inclusive development practices.</p>
             </div>
           </div>
         </div>

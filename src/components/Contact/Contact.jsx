@@ -66,7 +66,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3>Location</h3>
-                  <p>123 Education Street, Johannesburg, South Africa</p>
+                  <p>Eco Fusion 4300</p>
+                  <p>Witch-Hazel, Avenue</p>
+                  <p>Eco Park, Centurion</p>
                 </div>
               </div>
             </div>

@@ -89,7 +89,7 @@
 .info-item p {
   margin: 0;
   font-size: 1rem;
-  color: var(--light);
+  color: var(--primary);
 }
 
 .contact-hours {
