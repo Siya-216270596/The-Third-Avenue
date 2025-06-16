@@ -1,20 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-scroll';
 import './Navbar.css';
 import logo from '../../assets/TTA-logo.png';
 import menu_icon from '../../assets/menu-icon.png';
-import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [activeLink, setActiveLink] = useState('hero');
-  
+  const navRef = useRef(null);
+
   const toggleMenu = () => {
-    setMobileMenu(!mobileMenu);
+    setMobileMenu((prev) => !prev);
   };
 
   const handleSetActive = (to) => {
     setActiveLink(to);
   };
+
+  // Close mobile menu when clicking outside
+  useEffect(() => {
+    if (!mobileMenu) return;
+
+    const handleClickOutside = (e) => {
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setMobileMenu(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [mobileMenu]);
 
   const navItems = [
     { to: 'hero', text: 'Home' },
@@ -22,13 +37,13 @@ const Navbar = () => {
     { to: 'VisionAndMission-page', text: 'Mission And Vision' },
     { to: 'vision-container', text: 'Services' },
     { to: 'services-section', text: 'Explore Our Programmes' },
-    { to: 'contact-section', text: 'Get in Touch' }
+    { to: 'contact-section', text: 'Get in Touch' },
   ];
 
   return (
-    <nav className='container'>
-      <img src={logo} alt="Website logo" className='logo'/>
-      
+    <nav className="container" ref={navRef}>
+      <img src={logo} alt="Website logo" className="logo" />
+
       {/* Desktop Navigation */}
       <ul className="desktop-nav">
         {navItems.map((item) => (
@@ -47,9 +62,9 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      
+
       {/* Mobile Navigation */}
-      <ul className={`mobile-nav ${mobileMenu ? '' : 'hide-mobile-menu'}`}>
+      <ul className={`mobile-nav ${mobileMenu ? 'show-mobile-menu' : 'hide-mobile-menu'}`}>
         {navItems.map((item) => (
           <li key={item.to}>
             <Link
@@ -67,10 +82,16 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      
-      <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
+
+      {/* Hamburger icon */}
+      <img
+        src={menu_icon}
+        alt="menu icon"
+        className="menu-icon"
+        onClick={toggleMenu}
+      />
     </nav>
   );
-}
+};
 
 export default Navbar;

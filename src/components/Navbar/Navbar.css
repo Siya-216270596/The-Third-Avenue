@@ -91,6 +91,7 @@ nav ul li a:hover {
 @media(max-width: 840px) {
   nav {
     padding: 15px 0;
+    background: transparent !important;
   }
   
   .desktop-nav {
