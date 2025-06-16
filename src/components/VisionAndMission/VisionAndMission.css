@@ -281,7 +281,14 @@
   transform: translateY(-8px);
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
 }
-
+.impact-stat:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.mv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
 .value-icon-container {
   width: 70px;
   height: 70px;
@@ -310,6 +317,11 @@
 }
 
 /* Timeline Section */
+.timeline-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
 .timeline-section {
   margin: 5rem 0;
 }
