@@ -15,7 +15,7 @@ const Hero = () => {
         <Link
           to="contact-section"
           smooth={true}
-          duration={0}
+          duration={5}
           offset={-150}
           className="home-badge"
         >

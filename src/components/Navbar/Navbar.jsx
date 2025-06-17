@@ -53,7 +53,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={item.to === 'hero' || item.to === 'contact-section' ? 0 : -150}
-              duration={0}
+              duration={5}
               className={activeLink === item.to ? 'active-link' : ''}
               onSetActive={() => handleSetActive(item.to)}
             >
@@ -72,7 +72,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={item.to === 'hero' || item.to === 'contact-section' ? 0 : -150}
-              duration={0}
+              duration={5}
               className={activeLink === item.to ? 'active-link' : ''}
               onSetActive={() => handleSetActive(item.to)}
               onClick={toggleMenu}
