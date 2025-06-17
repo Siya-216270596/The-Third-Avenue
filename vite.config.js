@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: 'The-Third-Avenue', // This makes paths relative
+  base: './',      // ← ensure all imports are relative
   plugins: [react()],
-});
+})
