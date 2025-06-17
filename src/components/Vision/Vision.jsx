@@ -1,6 +1,6 @@
 import React from 'react'
 import './Vision.css'
-import about_img from '../../assets/Image 10.jpg'
+import about_img from '../../assets/OurService.jpg'
 
 const Vision = () => {
   const services = [
