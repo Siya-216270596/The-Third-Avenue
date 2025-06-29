@@ -2,7 +2,7 @@ import React from 'react';
 import {
   FiUsers,
   FiAward} from 'react-icons/fi';import './About.css';
-import aboutVideo from '../../assets/video_About.mp4'; 
+import aboutImage from '../../assets/Lauren-Quote-Student.jpg'; 
 
 const About = () => {
   return (
@@ -37,12 +37,13 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="hero-image-container">
-          <video autoPlay loop muted playsInline className="hero-video">
-            <source src={aboutVideo} type="video/mp4" />
-          </video>
-          <div className="image-overlay"></div>
-        </div>
+            <div className="qoute-image-container">
+              <div className="founder-photo">
+                <div className='founder-image'>
+                  <img src={aboutImage} alt="founder" />
+                </div>
+              </div>
+            </div>
       </section>
     </div>
   );

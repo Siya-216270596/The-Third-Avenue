@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3>Phone</h3>
-                  <p>+27 11 123 4567</p>
+                  <p>012 055 1144</p>
                 </div>
               </div>
               
@@ -56,7 +56,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p>info@thirdavenue.org</p>
+                  <p>admin@thethirdavenue.co.za</p>
                 </div>
               </div>
               
@@ -66,9 +66,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3>Location</h3>
-                  <p>Eco Fusion 4300</p>
+                  <p>Eco Fusion</p>
                   <p>Witch-Hazel, Avenue</p>
-                  <p>Eco Park, Centurion</p>
+                  <p>Eco Park Centurion 0169</p>
                 </div>
               </div>
             </div>

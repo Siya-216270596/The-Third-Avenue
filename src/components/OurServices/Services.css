@@ -35,15 +35,23 @@
   gap: 1.5rem;
   overflow-x: auto;
   scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;        /* mandatory snaps */
+  overscroll-behavior-x: contain;       /* contain momentum within this container */
+  -webkit-overflow-scrolling: auto;     /* disable iOS momentum bounce */
   padding: 2rem 1rem;
-  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
 .services-row::-webkit-scrollbar {
   display: none;
 }
+
+.services-row > * {
+  flex: 0 0 auto;                 /* ensure fixed width */
+  scroll-snap-align: start;       /* every child is a snap point */
+  scroll-snap-stop: always;       /* never skip this child */
+}
+
 
 .service-card {
   flex: 0 0 280px;

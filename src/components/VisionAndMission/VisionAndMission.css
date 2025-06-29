@@ -515,7 +515,7 @@
 
 .founder-credentials {
   font-size: 1.1rem;
-  color: var(--text);
+  color: var(--primary);
   margin-bottom: 1.5rem;
   font-weight: 500;
 }

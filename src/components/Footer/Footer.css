@@ -71,3 +71,14 @@
     color: #a57901;
   }
   
+  .bee-certificate-link a {
+    margin-top: 10px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .bee-certificate-link a:hover {
+    color: #aad8dd;
+  }
+  
