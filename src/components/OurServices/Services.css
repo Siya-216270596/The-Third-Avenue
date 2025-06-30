@@ -36,30 +36,17 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  padding: 2rem 1rem;
   scroll-padding-left: 1rem;
-  -webkit-overflow-scrolling: touch; /* iOS smooth scroll */
-}
-
-.services-row::-webkit-scrollbar {
-  display: none;
+  -webkit-overflow-scrolling: auto; /* disables iOS momentum */
+  padding: 2rem 1rem;
 }
 
 .service-card {
   flex: 0 0 280px;
   scroll-snap-align: start;
-  scroll-snap-stop: always; /* prevents skipping */
+  scroll-snap-stop: always;
 }
 
-.service-card {
-  flex: 0 0 280px;
-  scroll-snap-align: start;
-  background: white;
-  border-radius: 1rem;
-  overflow: hidden;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
 .service-card:hover {
   transform: translateY(-5px);
