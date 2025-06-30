@@ -17,13 +17,18 @@ import {
 } from 'react-icons/fi';
 import './VisionAndMission.css';
 import about_img from '../../assets/founder.jpg'
-import book_icon from '../../assets/book.png'
+import intergrity_icon from '../../assets/Intergrity.png'
 import light_icon from '../../assets/light.png'
 import learning_icon from '../../assets/learning.png'
 import money_icon from '../../assets/money.png'
-import intership_icon from '../../assets/intership.png'
 import guide_icon from '../../assets/guide.png'
-import user_icon from '../../assets/user.png'
+import accountability_icon from '../../assets/Accountability.png'
+import care_icon from '../../assets/Care.png'
+import quality_icon from '../../assets/Quality.png'
+import respect_icon from '../../assets/Respect.png'
+import book_icon from '../../assets/book.png'
+import compassion_icon from '../../assets/Compassion.png'
+
 
 
 const VisionAndMission = () => {
@@ -62,35 +67,35 @@ const VisionAndMission = () => {
         
         <div className="values-grid">
             <div className="impact-stat">
-            <img src={guide_icon} alt="Knowledge Icon" className="img-icon" />
+            <img src={compassion_icon} alt="Knowledge Icon" className="img-icon" />
               <div>
                 <h3>Compassion</h3>
                 <p>Showing genuine empathy and concern for others’ well-being and needs.</p>
               </div>
           </div>
             <div className="impact-stat">
-              <img src={user_icon} alt="Knowledge Icon" className="img-icon" />
+              <img src={respect_icon} alt="Knowledge Icon" className="img-icon" />
               <div>
                 <h3>Respect</h3>
                 <p>Valuing others' perspectives, rights, and dignity in every interaction.</p>
               </div>
             </div>
             <div className="impact-stat">
-              <img src={light_icon} alt="Knowledge Icon" className="img-icon" />
+              <img src={care_icon} alt="Knowledge Icon" className="img-icon" />
               <div>
                 <h3>Care</h3>
                 <p>Acting with thoughtfulness, kindness, and attention to individual needs.</p>
               </div>
           </div>
             <div className="impact-stat">
-              <img src={light_icon} alt="Knowledge Icon" className="img-icon" />
+              <img src={intergrity_icon} alt="Knowledge Icon" className="img-icon" />
               <div>
                 <h3> Integrity</h3>
                 <p>Doing the right thing, even when no one is watching.</p>
               </div>
           </div>
             <div className="impact-stat">
-              <img src={intership_icon} alt="Knowledge Icon" className="img-icon" />
+              <img src={quality_icon} alt="Knowledge Icon" className="img-icon" />
               <div>
                 <h3>Quality</h3>
                 <p>Delivering consistently high standards in everything we create or do.</p>
@@ -111,7 +116,7 @@ const VisionAndMission = () => {
               </div>
           </div>
           <div className="impact-stat">
-            <img src={book_icon} alt="Knowledge Icon" className="img-icon" />
+            <img src={guide_icon} alt="Knowledge Icon" className="img-icon" />
             <div>
               <h3>Knowledge</h3>
               <p>Applying expertise and continuous learning to inform decisions and actions.</p>
@@ -125,7 +130,7 @@ const VisionAndMission = () => {
               </div>
           </div>
             <div className="impact-stat">
-              <img src={light_icon} alt="Knowledge Icon" className="img-icon" />
+              <img src={accountability_icon} alt="Knowledge Icon" className="img-icon" />
             <div>
               <h3>Accountability and Ethics</h3>
                 <p>Taking responsibility while upholding strong moral and ethical principles.</p>
@@ -161,18 +166,18 @@ const VisionAndMission = () => {
           </div>
           
           <div className="timeline-item">
-            <div className="timeline-year">2020</div>
+            <div className="timeline-year">2023</div>
             <div className="timeline-content">
-              <h3>Digital Transformation</h3>
-              <p>In response to the challenges posed by the COVID-19 pandemic and a rapidly evolving digital landscape, The Third Avenue collaborated with strategic partners to launch a suite of  <b>online e-learning platforms and virtual training programmes</b>. This bold pivot ensured learning continuity, increased accessibility, and positioned the organization as a forward-thinking player in the digital education space.</p>
+              <h3>CHIETA Partnership</h3>
+              <p>In 2023, The Third Avenue partnered with <b>CHIETA (Chemical Industries Education & Training Authority)</b>—a pivotal milestone that reinforced our commitment to <b>sector-specific skills development</b>. This partnership empowered us to facilitate specialized training initiatives within the chemical industry, aligning education with evolving industry needs.</p>
             </div>
           </div>
           
           <div className="timeline-item">
-            <div className="timeline-year">2023</div>
+            <div className="timeline-year">2025</div>
             <div className="timeline-content">
-              <h3>Education Power of Woman Award</h3>
-              <p>In recognition of its exceptional impact in the skills development sector, The Third Avenue was honored with the <b>Education Power of Woman Award</b>. This accolade celebrates founder Sandisiwe Mabongo’s leadership and the organization’s unwavering commitment to empowering women and youth through education, innovation, and inclusive development practices.</p>
+              <h3>Academic Collaborations with Universities of Technology</h3>
+              <p>In 2025, The Third Avenue forged meaningful partnerships with leading institutions:<b>Cape Peninsula University of Technology (CPUT), Durban University of Technology (DUT)</b>, and <b>Tshwane University of Technology (TUT)</b>. These collaborations expanded our academic footprint and opened <b>new pathways for research, training, and skills development</b>—connecting students with real-world opportunities and industry readiness.</p>
             </div>
           </div>
         </div>
@@ -197,7 +202,7 @@ const VisionAndMission = () => {
               15+ Years Experience | NQF Level 5 Facilitator | Skills Development Expert
               </p>
               <p className="founder-story">
-                Founded in 2016, The Third Avenue was created out of a deep passion for transforming lives through education. Our mission is to close the divide between education and employment by equipping individuals with the practical skills and qualifications needed to thrive in the workforce.
+              Founder of <i>The Third Avenue</i> (est. 2016), Sandisiwe Mabongo is a passionate advocate for transformative education and inclusive development. With over 15 years of experience in the skills development sector, she has dedicated her career to <b>bridging the gap between education and employment</b>. Her work focuses on equipping individuals—particularly youth and women—with practical, accredited skills that empower them to thrive in a rapidly evolving workforce.
               </p>
             </div>
             
