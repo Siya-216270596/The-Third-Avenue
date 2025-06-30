@@ -26,7 +26,7 @@ import accountability_icon from '../../assets/Accountability.png'
 import care_icon from '../../assets/Care.png'
 import quality_icon from '../../assets/Quality.png'
 import respect_icon from '../../assets/Respect.png'
-import book_icon from '../../assets/book.png'
+import signature_icon from '../../assets/Signature.png'
 import compassion_icon from '../../assets/Compassion.png'
 
 
@@ -204,6 +204,8 @@ const VisionAndMission = () => {
               <p className="founder-story">
               Founder of <i>The Third Avenue</i> (est. 2016), Sandisiwe Mabongo is a passionate advocate for transformative education and inclusive development. With over 15 years of experience in the skills development sector, she has dedicated her career to <b>bridging the gap between education and employment</b>. Her work focuses on equipping individuals—particularly youth and women—with practical, accredited skills that empower them to thrive in a rapidly evolving workforce.
               </p>
+              <img src={signature_icon} alt="signature Icon" className="img-signature-icon" />
+
             </div>
             
             <div className="founder-image-container">
