@@ -60,12 +60,13 @@ const Services = () => {
 
   const handleScroll = (direction) => {
     const row = document.querySelector('.services-row');
-    const cardWidth = 300; // Width of each card including margin
-    const scrollAmount = cardWidth * 3; // Scroll 3 cards at a time
-
+    const card = row.querySelector('.service-card');
+    const cardWidth = card.offsetWidth + 24; // 24 = typical gap between cards
+    const scrollAmount = cardWidth;
+  
     row.scrollBy({
       left: direction === 'left' ? -scrollAmount : scrollAmount,
-      behavior: 'smooth'
+      behavior: 'smooth',
     });
   };
 
@@ -78,8 +79,11 @@ const Services = () => {
   };
 
   const handleTouchEnd = () => {
-    if (touchStart - touchEnd > 50) handleScroll('right');
-    if (touchEnd - touchStart > 50) handleScroll('left');
+    const diff = touchStart - touchEnd;
+    if (Math.abs(diff) < 30) return; // Ignore tiny movements
+  
+    if (diff > 0) handleScroll('right'); // swiped left
+    if (diff < 0) handleScroll('left');  // swiped right
   };
 
   useEffect(() => {

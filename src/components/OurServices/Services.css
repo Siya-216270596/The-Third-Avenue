@@ -35,9 +35,9 @@
   gap: 1.5rem;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
   scroll-behavior: smooth;
-  scroll-padding-left: 1rem;
-  -webkit-overflow-scrolling: auto; /* disables iOS momentum */
+  -webkit-overflow-scrolling: touch;
   padding: 2rem 1rem;
 }
 
