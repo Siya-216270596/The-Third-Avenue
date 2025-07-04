@@ -151,9 +151,15 @@ const VisionAndMission = () => {
             <div className="timeline-year">2016</div>
             <div className="timeline-content">
               <h3>Foundation</h3>
-              <p>The Third Avenue was established by visionary leader  <b>Sandisiwe Mabongo </b>with a clear mission:
-                to bridge the gap between education and employment in South Africa.
-                Inspired by a passion for youth development and transformation, the organization set out to deliver high-impact skills training and career-readiness programmes tailored to underserved communities. </p>
+              <p>The Third Avenue was founded by visionary leader Sandisiwe Mabongo, driven by a passion to transform lives through education. The mission: to bridge the gap between education and employment by equipping individuals with the practical skills and qualifications needed to succeed in the workforce. </p>
+            </div>
+          </div>
+          
+          <div className="timeline-item">
+            <div className="timeline-year">2017</div>
+            <div className="timeline-content">
+              <h3>NYDA Grant Recipient</h3>
+              <p>As a young entrepreneur, Sandisiwe applied for and received NYDA Grant Funding, which helped her purchase a food truck and small business equipment—marking the entrepreneurial beginning of what would later become The Third Avenue. Through NYDA's Mentorship Programme and a Financial Management Voucher, she gained valuable tools to run her business effectively. This early support was pivotal in shaping her vision and laying the foundation for a scalable enterprise.</p>
             </div>
           </div>
           
@@ -161,23 +167,40 @@ const VisionAndMission = () => {
             <div className="timeline-year">2018</div>
             <div className="timeline-content">
               <h3>National Expansion</h3>
-              <p>By 2018, The Third Avenue had successfully expanded its operations across  <b>three provinces</b>, demonstrating the growing demand for quality, accessible skills development. This growth marked a significant milestone in extending the organization’s impact and reaching a wider network of learners, schools, and community-based partners across the country.</p>
+              <p>By 2018, The Third Avenue had expanded across three provinces, reflecting growing national demand for skills development. The organization deepened its footprint across learners, schools, and community-based partners, affirming its place as a trusted skills development partner.</p>
             </div>
           </div>
           
           <div className="timeline-item">
+            <div className="timeline-year">2019</div>
+            <div className="timeline-content">
+              <h3>DEFF Partnership</h3>
+              <p>The Department of Environment, Forestry & Fisheries (DEFF) became one of The Third Avenue’s key and consistent clients. The organization delivered services ranging from training programmes to supply and delivery projects, establishing a long-term working relationship in the public sector.</p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-year">2021</div>
+            <div className="timeline-content">
+              <h3>SANBS 3-Year Contract</h3>
+              <p>The Third Avenue secured its first major 3-year contract with the South African National Blood Service (SANBS), supplying branded water and donor gift items across multiple locations—demonstrating operational scale and commercial reliability.</p>
+            </div>
+          </div>
+
+          <div className="timeline-item">
             <div className="timeline-year">2023</div>
             <div className="timeline-content">
-              <h3>CHIETA Partnership</h3>
-              <p>In 2023, The Third Avenue partnered with <b>CHIETA (Chemical Industries Education & Training Authority)</b>—a pivotal milestone that reinforced our commitment to <b>sector-specific skills development</b>. This partnership empowered us to facilitate specialized training initiatives within the chemical industry, aligning education with evolving industry needs.</p>
+              <h3>CHIETA Partnership & Expanded University Collaborations</h3>
+              <p>The organization partnered with CHIETA (Chemical Industries Education & Training Authority) to launch sector-specific training programmes that aligned with industry needs in the chemical sector.
+                 In the same year, The Third Avenue expanded its academic partnerships, beginning formal collaborations with CPUT, TUT, Nkangala TVET, Mopani TVET, WITS, and Waterberg TVET College (WUC)—strengthening the bridge between theory and practice.</p>
             </div>
           </div>
           
           <div className="timeline-item">
             <div className="timeline-year">2025</div>
             <div className="timeline-content">
-              <h3>Academic Collaborations with Universities of Technology</h3>
-              <p>In 2025, The Third Avenue forged meaningful partnerships with leading institutions:<b>Cape Peninsula University of Technology (CPUT), Durban University of Technology (DUT)</b>, and <b>Tshwane University of Technology (TUT)</b>. These collaborations expanded our academic footprint and opened <b>new pathways for research, training, and skills development</b>—connecting students with real-world opportunities and industry readiness.</p>
+              <h3>New Academic Partnerships</h3>
+              <p>In 2025, The Third Avenue extended its reach further by initiating partnerships with Durban University of Technology (DUT) and Walter Sisulu University (WSU), continuing to build its network of institutions that share a vision for transformative, accessible education.</p>
             </div>
           </div>
         </div>
